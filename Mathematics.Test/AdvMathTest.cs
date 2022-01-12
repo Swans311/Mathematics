@@ -21,9 +21,9 @@ namespace Mathematics.Test
         public void TestAvg()
         {
             var math = new AdvMath();
-            double[] myList = { 2, 2, 2, 2, 2, 2 };
+            double[] myList = { 1,2,3,4,5 };
             var results = math.CalcAverage(myList);
-            Assert.True(results == 2);
+            Assert.True(results == 3);
         }
 
         [Fact]
